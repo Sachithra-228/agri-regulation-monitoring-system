@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agriculture Regulation & Monitoring System</title>
+    <link rel="icon" href="/favicon.ico" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#388e3c',
+              secondary: '#a5d6a7',
+              earth: '#f5f5dc',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-earth font-sans text-gray-800">
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
